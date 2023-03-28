@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Live link](https://nifaciabellportfolio.netlify.app)
+
 ## About Me
 
 This project is to showcase my portfolio that highlights my Software Engineering and UX Design skills, special talents, interest and hobbies for you to get to know me! 
