@@ -18,6 +18,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Wireframe
+
+
+![Paper wireframe](Nifacia.jpg)
+![Paper wireframe](Nifacia2.jpg)
+
+![Wireframe](Screen%20Shot%202023-03-28%20at%2010.19.28%20AM.png)
+![Wireframe](Screen%20Shot%202023-03-28%20at%2010.19.38%20AM.png)
+![Wireframe](Screen%20Shot%202023-03-28%20at%2010.19.54%20AM.png)
+![Wireframe](Screen%20Shot%202023-03-28%20at%2010.20.06%20AM.png)
+![Wireframe](Screen%20Shot%202023-03-28%20at%2010.20.16%20AM.png)
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
