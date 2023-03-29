@@ -2,7 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Live link](https://nifaciabellportfolio.netlify.app)
 
 ## About Me
 
@@ -20,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Wireframe
+## Wireframes
 
 
 ![Paper wireframe](Nifacia.jpg)
@@ -47,5 +46,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Live link to Portfolio](https://nifaciabellportfolio.netlify.app)
+
 
