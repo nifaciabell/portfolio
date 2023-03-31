@@ -1,26 +1,30 @@
+import { Form } from "react-bootstrap";
+
+
 function Contact() {
   return (
     <div className="App">
       <h1>Contact</h1>
- <form>
-   <label htmlFor="name">Name:</label>
+      <img src= "https://plus.unsplash.com/premium_photo-1679731353672-a94831f2b4f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"/>
+ <Form>
+   <label htmlFor="name">Name: </label>
    <input type="text" id="name" name="name" placeholder="Enter your name" />
-   </form>
+   </Form>
 
-   <form>
-   <label htmlFor="email">Email:</label>
+   <Form>
+   <label htmlFor="email">Email: </label>
    <input type="text" id="email" name="email" placeholder="Enter your email address" />
-   </form>
+   </Form>
 
-   <form>
-   <label htmlFor="phone">Phone:</label>
+   <Form>
+   <label htmlFor="phone">Phone: </label>
    <input type="text" id="phone" name="phone" placeholder="Enter your phone number" />
-   </form>
+   </Form>
 
-   <form>
-   <label htmlFor="message">Message:</label>
+   <Form>
+   <label htmlFor="message">Message: </label>
    <input type="text" id="message" name="message" placeholder="Leave a message" />
-   </form>
+   </Form>
 	
 
 
