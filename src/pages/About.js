@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Button } from "bootstrap";
-import { Form } from "react-bootstrap";
+import { Form , Button} from "react-bootstrap";
 
 function About() {
   // console.log(process.env.REACT_APP_CLIENTID)
@@ -24,7 +23,7 @@ function About() {
   useEffect(() => {
     const hash = window.location.hash;
     let token = window.localStorage.getItem("token");
-
+    console.log(token)
     // token = getToken();
 
     if (!token && hash) {
@@ -48,6 +47,7 @@ console.log(token)
 
   const searchArtists = async (e) => {
     e.preventDefault();
+    console.log(token)
     const { data } = await axios.get("https://api.spotify.com/v1/search", {
       headers: {
         Authorization: `Bearer ${token}`,

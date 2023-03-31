@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import SEPage from "./pages/SEPage";
 import UXPage from "./pages/UXPage";
 import { Route, Routes } from "react-router-dom";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
