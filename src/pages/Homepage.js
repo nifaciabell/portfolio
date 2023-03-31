@@ -1,7 +1,37 @@
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function Homepage() {
+  const [token, setToken] = useState(null)
+console.log("render")
+  const getToken = () => {
+    let urlParams = new URLSearchParams(window.location.hash.replace("#", "?"));
+    let token = urlParams.get("access_token");
+    console.log(token)
+    // return token
+  };
+  useEffect(() => {
+    const hash = window.location.hash;
+    let token = window.localStorage.getItem("token");
+
+  getToken();
+
+    if (!token && hash) {
+      token = hash
+        .substring(1)
+        .split("&")
+        .find((elem) => elem.startsWith("access_token"))
+        .split("=")[1];
+
+      window.location.hash = "";
+      window.localStorage.setItem("token", token);
+    }
+console.log(token)
+    setToken(token);
+  }, []);
+
+
   return (
     <div className="App">
       <h1>Nifacia Bell Portfolio</h1>

@@ -4,7 +4,7 @@ import { Button } from "bootstrap";
 import { Form } from "react-bootstrap";
 
 function About() {
-  console.log(process.env.REACT_APP_CLIENTID)
+  // console.log(process.env.REACT_APP_CLIENTID)
   const CLIENT_ID = "5faae30233654875974f9949a8ccdab6"
   const REDIRECT_URI = "https://nifaciabellportfolio.netlify.app";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
@@ -17,6 +17,7 @@ function About() {
   const getToken = () => {
     let urlParams = new URLSearchParams(window.location.hash.replace("#", "?"));
     let token = urlParams.get("access_token");
+    console.log(token)
     return token
   };
 
@@ -36,7 +37,7 @@ function About() {
       window.location.hash = "";
       window.localStorage.setItem("token", token);
     }
-
+console.log(token)
     setToken(token);
   }, []);
 
@@ -89,7 +90,7 @@ function About() {
         design. I am still learning and growing every day but you can find
         examples of my recent work on the homepage of my website.
       </p>
-      <input type="button" onclick="https://docs.google.com/document/d/1tUshEYrRS2QiLHwxukRorsTsGcPtLIzk/edit?usp=sharing&ouid=118079838531144138977&rtpof=true&sd=true';" value="Go to Resume" />
+      <input type="button" onClick="https://docs.google.com/document/d/1tUshEYrRS2QiLHwxukRorsTsGcPtLIzk/edit?usp=sharing&ouid=118079838531144138977&rtpof=true&sd=true';" value="Go to Resume" />
        {/* <Button>Check out my resume</Button> */}
       <br/>
       <h2>Hobbies & Interests</h2>
