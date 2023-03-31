@@ -4,7 +4,7 @@ import { Button } from "bootstrap";
 import { Form } from "react-bootstrap";
 
 function About() {
-  const CLIENT_ID = "b39c9c2f4fa346a69e4cdbcafefd5185";
+  const CLIENT_ID = process.env.REACT_APP_CLIENTID
   const REDIRECT_URI = "https://nifaciabellportfolio.netlify.app/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
