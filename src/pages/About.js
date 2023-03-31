@@ -4,6 +4,7 @@ import { Button } from "bootstrap";
 import { Form } from "react-bootstrap";
 
 function About() {
+  console.log(process.env.REACT_APP_CLIENTID)
   const CLIENT_ID = process.env.REACT_APP_CLIENTID
   const REDIRECT_URI = "https://nifaciabellportfolio.netlify.app/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
@@ -16,13 +17,14 @@ function About() {
   const getToken = () => {
     let urlParams = new URLSearchParams(window.location.hash.replace("#", "?"));
     let token = urlParams.get("access_token");
+    return token
   };
 
   useEffect(() => {
     const hash = window.location.hash;
     let token = window.localStorage.getItem("token");
 
-    getToken();
+    token = getToken();
 
     if (!token && hash) {
       token = hash
