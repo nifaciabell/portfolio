@@ -9,6 +9,7 @@ console.log("render")
     let urlParams = new URLSearchParams(window.location.hash.replace("#", "?"));
     let token = urlParams.get("access_token");
     console.log(token)
+    localStorage.setItem("token", JSON.stringify(token))
     // return token
   };
   useEffect(() => {
