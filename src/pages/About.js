@@ -6,7 +6,7 @@ import { Form } from "react-bootstrap";
 function About() {
   console.log(process.env.REACT_APP_CLIENTID)
   const CLIENT_ID = "5faae30233654875974f9949a8ccdab6"
-  const REDIRECT_URI = "https://nifaciabellportfolio.netlify.app/";
+  const REDIRECT_URI = "https://nifaciabellportfolio.netlify.app";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 
