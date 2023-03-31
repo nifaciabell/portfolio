@@ -25,7 +25,7 @@ function About() {
     const hash = window.location.hash;
     let token = window.localStorage.getItem("token");
 
-    token = getToken();
+    // token = getToken();
 
     if (!token && hash) {
       token = hash
