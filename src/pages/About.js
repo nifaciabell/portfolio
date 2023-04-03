@@ -90,14 +90,13 @@ console.log(token)
         design. I am still learning and growing every day but you can find
         examples of my recent work on the homepage of my website.
       </p>
-      <input type="button" onClick="https://docs.google.com/document/d/1tUshEYrRS2QiLHwxukRorsTsGcPtLIzk/edit?usp=sharing&ouid=118079838531144138977&rtpof=true&sd=true';" value="Go to Resume" />
-       {/* <Button>Check out my resume</Button> */}
+     
       <br/>
       <h2>Hobbies & Interests</h2>
       <p>I love music, check out my Spotify API!</p>
       <br />
       <header className="App-header">
-        <h1>Spotify Fav Playlists</h1>
+        <h1>Search Your Favorite Artist Here</h1>
         {!token ? (
           <a
             href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}

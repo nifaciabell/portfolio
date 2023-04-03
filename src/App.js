@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -25,6 +26,7 @@ function App() {
 
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
