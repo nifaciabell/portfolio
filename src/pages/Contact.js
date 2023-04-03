@@ -25,7 +25,7 @@ function Contact() {
    <label htmlFor="message">Message: </label>
    <input type="text" id="message" name="message" placeholder="Leave a message" />
    </Form>
-	
+	<br/>
 <Button type="submit">Submit</Button>
 
     </div>

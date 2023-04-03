@@ -10,7 +10,6 @@ function NavBar() {
             <Link to="/">
               <div>Homepage</div>
             </Link>
-
             <Link to="/SEPage">
               <div>Software Engineering Projects</div>
             </Link>

@@ -65,7 +65,7 @@ console.log(token)
     return artists.map((artist) => (
       <div key={artist.id}>
         {artist.images.length ? (
-          <img width={"100%"} src={artist.images[0].url} alt="" />
+          <img width={"50%"} src={artist.images[0].url} alt="" />
         ) : (
           <div>No Image</div>
         )}
@@ -92,11 +92,9 @@ console.log(token)
       </p>
      
       <br/>
-      <h2>Hobbies & Interests</h2>
-      <p>I love music, check out my Spotify API!</p>
-      <br />
+      
       <header className="App-header">
-        <h1>Search Your Favorite Artist Here</h1>
+        <h4>Search Your Favorite Artist Here with Spotify API</h4>
         {!token ? (
           <a
             href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}
