@@ -65,7 +65,7 @@ console.log(token)
     return artists.map((artist) => (
       <div key={artist.id}>
         {artist.images.length ? (
-          <img width={"50%"} src={artist.images[0].url} alt="" />
+          <img width={"30%"} src={artist.images[0].url} alt="" />
         ) : (
           <div>No Image</div>
         )}
