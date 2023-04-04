@@ -4,7 +4,7 @@ function SEPage() {
   return (
     <div className="App">
       <h1>Software Engineering Projects</h1>
-      <Card style={{ width: "25rem" }}>
+      <Card style={{ width: "25rem"}}>
         <Card.Body>
           <Card.Title>Minesweeper Game</Card.Title>
           <Card.Img src=""></Card.Img>
