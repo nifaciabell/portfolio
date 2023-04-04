@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import axios, { formToJSON } from "axios";
 import { Form , Button} from "react-bootstrap";
 
 function About() {
@@ -77,9 +77,10 @@ console.log(token)
   return (
     <div className="App">
       <h1>About Me</h1>
+    
       <p>
         Hey! My name is Nifacia Bell (pronounced ni-fay-sha) but most people
-        call me Faye. I am a UX engineer a happy union of UX design and Software
+        call me Faye. I am a UX engineer, a happy union of UX design and Software
         Engineering. I specialize in visual design or front-end development and
         user research. I wanted to specialize in design so that I can use my
         keen eye for the details that often go unnoticed such as the art behind
@@ -87,12 +88,10 @@ console.log(token)
         transform the user’s visual experience. Along with my visual designs
         skills I utilize my technical skills to build apps and websites. With
         these two skills I have developed a well- rounded understanding of web
-        design. I am still learning and growing every day but you can find
+        development. I am still learning and growing every day but you can find
         examples of my recent work on the homepage of my website.
       </p>
      
-      <br/>
-      
       <header className="App-header">
         <h4>Search Your Favorite Artist Here with Spotify API</h4>
         {!token ? (

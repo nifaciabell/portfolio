@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-or you can see the live website hosted by Netlify. 
+or you can see the live website hosted by Netlify (found in the Deployment section of READme file) 
 
 ## Wireframes
 
@@ -52,6 +52,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Next Steps
 
-For my portfolio I would like to add all of my software engineer and ux designs projects. Create a cohesive layout and implement more API's. And showcase more of my personality. 
+For my portfolio I would like to add all of my software engineer and ux designs projects. Create a cohesive layout and implement more API's. And showcase more of my personality by working on UI. 
 
 

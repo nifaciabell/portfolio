@@ -1,7 +1,0 @@
-.NavBar{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-justify-content: space-between;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
